@@ -1,0 +1,1 @@
+// Estou criando tudo em apenas esse arquivo app.js
