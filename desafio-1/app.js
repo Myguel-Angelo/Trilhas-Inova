@@ -83,7 +83,7 @@ console.log("Olá, meu nome é " + nome + " e eu tenho " + idade + " anos");
 /*
 let cont = 1;
 while(cont<=10) {
-    console.log(cont)
+    console.log(cont);
     cont++;
 }
 */
@@ -114,7 +114,7 @@ while(multi<=10){
 /*
 let number = 0;
 while(number<=20){
-    console.log(number)
+    console.log(number);
     number+=2;
 }
 */
