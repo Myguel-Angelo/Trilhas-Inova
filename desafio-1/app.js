@@ -8,7 +8,7 @@ console.log(nome);
 
 
 // 2°
-/*  
+/*
 let idade = 25;
 let altura = 1.75;
 console.log(idade, altura);
@@ -25,7 +25,7 @@ console.log(valorComDesconto);
 
 
 // 4°
-/*  
+/*
 let temperatura = 30;  
 if (temperatura > 25) {  
     console.log("Está calor!");  
@@ -36,7 +36,7 @@ if (temperatura > 25) {
 
 
 // 5°
-/*  
+/*
 let idade = 18;  // Eu tenho 18 kkkkk
 if (idade >= 18) {  
     console.log("Você é maior de idade");  
@@ -60,7 +60,7 @@ if (nota >= 7) {
 
 
 // 7°
-/*  
+/*
 let numero1 = 10;  
 let numero2 = 20;  
 if (numero1 == numero2) {  
@@ -72,10 +72,10 @@ if (numero1 == numero2) {
 
 
 // 8°
-/*  
+/*
 let nome = "Ângelo Nunes";  
-let idade = 18;  
-console.log("Olá, meu nome é " + nome + " e eu tenho " + idade + " anos");  
+let idade = "18";  
+console.log(`Olá, meu nome é ${nome} e eu tenho ${idade} anos`);  
 */
 
 
@@ -89,11 +89,10 @@ while(cont<=10) {
 */
 
 // 10°
-/*  
-let numero = prompt("Digite um número:");
+/*
+let numero;
 while(numero!=5) {
-    console.log(numero);
-    numero = prompt("Digite um número:");  
+    numero = prompt("Digite um número:");
 }  
 console.log("Você digitou 5, encerrando...");  
 */

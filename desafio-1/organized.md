@@ -67,8 +67,8 @@ if (numero1 == numero2) {
 #### 8° Crie uma variável chamada nome e uma variável chamada idade. Exiba a mensagem "Olá, meu nome é [nome] e eu tenho [idade] anos", utilizando concatenação.
 ```js
 let nome = "Ângelo Nunes";  
-let idade = 18;  
-console.log("Olá, meu nome é " + nome + " e eu tenho " + idade + " anos");
+let idade = "18";  
+console.log(`Olá, meu nome é ${nome} e eu tenho ${idade} anos`); 
 ```
 
 #### 9° Crie um loop que imprima os números de 1 a 10 na tela.
@@ -82,9 +82,8 @@ while(cont<=10) {
 
 #### 10° Crie um loop que peça ao usuário para digitar um número até que ele digite o número 5.
 ```js
-let numero = prompt("Digite um número:");
+let numero;
 while(numero!=5) {
-    console.log(numero);
     numero = prompt("Digite um número:");  
 }  
 console.log("Você digitou 5, encerrando...");  
