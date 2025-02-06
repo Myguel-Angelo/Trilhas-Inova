@@ -57,7 +57,7 @@ if (nota >= 7) {
 ```js
 let numero1 = 10;  
 let numero2 = 20;  
-if (numero1 === numero2) {  
+if (numero1 == numero2) {  
     console.log("Os números são iguais");  
 } else {  
     console.log("Os números são diferentes");  
