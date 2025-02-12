@@ -140,8 +140,8 @@ console.log(z)
 function somarNumeros(x, y) {  
     return x + y;  
 }  
-let x = 15;
-let y = 51;
+let x = 10;
+let y = 20;
 let z = somarNumeros(x, y);  
 console.log(z);  
 ```
